@@ -35,7 +35,7 @@ searchButton.addEventListener("click", () => {
       specialDefense.textContent = data.stats[4].base_stat;
       speed.textContent = data.stats[5].base_stat;
 
-      // Clear previous types
+      // Clear previous type
       types.innerHTML = "";
       data.types.forEach((type) => {
         const typeSpan = document.createElement("span");
